@@ -15,9 +15,7 @@ var HomeView = function(store) {
             console.log('New iScroll');
             self.iscroll = new iScroll($('.scroll', self.el)[0], {hScrollbar: false, vScrollbar: false });
         }
-		setTimeout( function(){
-                      myScroll.refresh() ;
-                    } , 100 ) ;
+
     });
 };
  
